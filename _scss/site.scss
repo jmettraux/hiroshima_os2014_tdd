@@ -43,24 +43,12 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
-}
-
-a {
-  color: white;
-  text-decoration: none;
-  &:hover { opacity: 0.7; }
-}
-
-div.page {
-  height: 100%;
   min-height: 100%;
-  position: relative;
 }
 
-div.main {
-  width: 850px;
-  margin: 0 auto;
-  padding-bottom: 80px;
-  min-height: 490px;
-}
+//a {
+//  color: white;
+//  text-decoration: none;
+//  &:hover { opacity: 0.7; }
+//}
 
