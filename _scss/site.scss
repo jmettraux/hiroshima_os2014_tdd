@@ -55,6 +55,19 @@ a {
 
 h1 {
   font-size: 300%;
+  margin-bottom: 0.4em;
+}
+h2 {
+  font-size: 200%;
+  margin-bottom: 0.3em;
+}
+h3 {
+  font-size: 120%;
+  margin-bottom: 0.2em;
+}
+
+p {
+  margin-top: 0.7em;
 }
 
 .slide {
@@ -64,7 +77,18 @@ h1 {
   //text-align: center;
 }
 
-.self-presentation {
+ul {
+  list-style-type: square;
+  padding-left: 1em;
+  //list-style-position: outside;
+}
+li {
+  margin-bottom: 0.2em;
+}
+
+ul.self-presentation {
+  list-style-type: none;
+  padding-left: 0;
   li:first-of-type {
     font-size: 110%;
     margin-bottom: 0.7em;
