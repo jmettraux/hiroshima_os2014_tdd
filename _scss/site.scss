@@ -60,6 +60,20 @@ h1 {
 .slide {
   width: 800px;
   margin: 0 auto;
+  margin-top: 70px;
   //text-align: center;
+}
+
+.self-presentation {
+  li:first-of-type {
+    font-size: 110%;
+    margin-bottom: 0.7em;
+  }
+  li {
+    margin-bottom: 0.2em;
+  }
+  img {
+    //padding-top: 7px;
+  }
 }
 
