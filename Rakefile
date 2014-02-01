@@ -50,3 +50,9 @@ end
 #  sh('find . -name .sass-cache | xargs rm -fR')
 #end
 
+desc "uploads the website"
+task :u => :build do
+
+  sh('rsync -azve ssh _site/* lin:www/snap/hos')
+end
+

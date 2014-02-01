@@ -13,7 +13,7 @@ var Pres = (function() {
     var n = parseInt(m[1], 10);
     if (direction === 'left') n = n - 1; else n = n + 1;
     if (n < 0) n = 0;
-    return '/slides/' + n + '.html';
+    return '/hos/slides/' + n + '.html';
   };
 
   //
@@ -31,7 +31,7 @@ var Pres = (function() {
 
     $('body').on('keyup', function(ev) {
       if (ev.keyCode === 37 && ev.shiftKey) {
-        window.location.href = '/slides/0.html';
+        window.location.href = '/hos/slides/0.html';
       }
       //else if (ev.keyCode === 39 && ev.shiftKey) {
       //}
