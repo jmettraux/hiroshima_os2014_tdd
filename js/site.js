@@ -42,6 +42,8 @@ var Pres = (function() {
         window.location.href = determineNext('right');
       }
     });
+
+    $('#page').text(window.location.pathname);
   };
 
   //
